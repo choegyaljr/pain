@@ -1,0 +1,40 @@
+/* Centering the app */
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #040405;
+    font-family: system-ui, sans-serif;
+    padding-top: 50px;
+}
+
+/* Heading style */
+h1 {
+    color: #4a90e2;
+}
+
+main {
+    width: 350px;
+    text-align: center;
+}
+
+article p {
+    font-size: 1.3rem;
+}
+
+/* Note Card Styling */
+article {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Hover effects */
+button:hover {
+    filter: brightness(0.9);
+    cursor: pointer;
+}
